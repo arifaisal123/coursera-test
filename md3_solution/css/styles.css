@@ -1,35 +1,66 @@
 body {
-	background-color: #800000;
+	background-color: #B7DAFD;
 }
 
 h1 {
-	color: #ffffff;
+	color: #000080;
 	margin-top: 10px;
 	font-weight: bold;
 }
 
 #header-nav {
-	background-color: #FFA500;
+	background-color: #000080;
 	border: 0;
 	border-radius: 0;
 }
 
-h2 {
-	color: #fff;
-	text-align: center; 
-	font-weight: bold;
-}
-
 
 #chicken {
-	color: #fff;
+	color: #000080;
 }
 
 #beef {
-	color: #fff;
+	color: #000080;
 }
 
 #shrimp {
-	color: #fff;
+	color: #000080;
 }
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a:hover {
+	background: #ffffff;
+}
+
+#nav-list {
+	text-align: center;
+	border-style: solid;
+	border-color: #fff;
+	font-weight: bold;
+	background-color: #000080;
+	font-family: cursive;
+}
+
+h1, h3{
+	font-family: cursive; 
+	font-weight: bold;
+}
+
+#last {
+	text-decoration: none;
+}
+
+.container {
+	background-color: #B7DAFD;
+	margin-top: 0px;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	color: red;
+}
+
 
